@@ -1,0 +1,19 @@
+text
+
+encrypt:
+
+	-key homepass -en /root/CLionProjects/lab2_cript_cpp/cmake-build-debug/bin/text.txt
+decrypt:
+
+	-key homepass -de /root/CLionProjects/lab2_cript_cpp/cmake-build-debug/bin/text.txt
+
+-----------------
+bmp
+
+encrypt:
+
+	-bmp -key homepass -en /root/CLionProjects/lab2_cript_cpp/cmake-build-debug/bin/bmp_24.bmp
+
+decrypt:
+
+	-bmp -key homepass -de /root/CLionProjects/lab2_cript_cpp/cmake-build-debug/bin/out-encryption.BMP	
